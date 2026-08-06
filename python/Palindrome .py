@@ -6,8 +6,7 @@ def is_palindrome(num):
         digit = num % 10
         reverse = reverse * 10 + digit
         num //= 10
-
-    return original == reverse
+ return original == reverse
 
 
 print(is_palindrome(121))
